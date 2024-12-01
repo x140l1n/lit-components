@@ -1,0 +1,32 @@
+{
+	"name": "test-lit",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"biome": "npx biome check",
+		"biome:fix": "npx biome check --write",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
+	"dependencies": {
+		"lit": "^3.2.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@chromatic-com/storybook": "^3.2.2",
+		"@storybook/addon-essentials": "^8.4.6",
+		"@storybook/addon-interactions": "^8.4.6",
+		"@storybook/blocks": "^8.4.6",
+		"@storybook/test": "^8.4.6",
+		"@storybook/web-components": "^8.4.6",
+		"@storybook/web-components-vite": "^8.4.6",
+		"@types/node": "^22.10.1",
+		"storybook": "^8.4.6",
+		"typescript": "~5.6.2",
+		"vite": "^6.0.1"
+	}
+}
