@@ -7,6 +7,7 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
+		"test": "vitest",
 		"biome": "npx biome check",
 		"biome:fix": "npx biome check --write",
 		"storybook": "storybook dev -p 6006",
@@ -25,8 +26,11 @@
 		"@storybook/web-components": "^8.4.6",
 		"@storybook/web-components-vite": "^8.4.6",
 		"@types/node": "^22.10.1",
+		"@vitest/browser": "^2.1.6",
+		"playwright": "^1.49.0",
 		"storybook": "^8.4.6",
 		"typescript": "~5.6.2",
-		"vite": "^6.0.1"
+		"vite": "^6.0.1",
+		"vitest": "^2.1.6"
 	}
 }

@@ -25,7 +25,11 @@
 			"@/*": ["./src/*"],
 			"@assets/*": ["./src/assets/*"],
 			"@components/*": ["./src/components/*"]
-		}
+		},
+
+		"types": [
+			"@vitest/browser/providers/playwright",
+		]
 	},
 	"include": ["src"]
 }

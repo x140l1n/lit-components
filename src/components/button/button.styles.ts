@@ -12,16 +12,26 @@ export default css`
         cursor: pointer;
         border-radius: 8px;
         
-        &.button--primary {
+        &.primary {
             background-color: #4CAF50;
         }
 
-        &.button--secondary {
+        &.secondary {
             background-color: #008CBA;
         }
 
+        &.large {
+            font-size: 20px;
+            padding: 20px 40px;
+        }
+
+        &.small {
+            font-size: 12px;
+            padding: 10px 20px;
+        }
+
         &:hover {
-            filter: brightness(90%);
+            filter: brightness(0.9);
         }
     }
 `;
