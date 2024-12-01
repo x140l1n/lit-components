@@ -5,12 +5,12 @@ const config: StorybookConfig = {
 	addons: [
 		'@storybook/addon-essentials',
 		'@chromatic-com/storybook',
-		'@storybook/addon-interactions',
+		'@storybook/addon-interactions'
 	],
 	framework: {
 		name: '@storybook/web-components-vite',
-		options: {},
-	},
+		options: {}
+	}
 };
 
 export default config;

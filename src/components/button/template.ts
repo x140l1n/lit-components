@@ -6,7 +6,7 @@ export default (props: MyButton) => {
 	const classes = {
 		button: true,
 		'button--primary': props.variant === 'primary',
-		'button--secondary': props.variant === 'secondary',
+		'button--secondary': props.variant === 'secondary'
 	};
 
 	return html`
